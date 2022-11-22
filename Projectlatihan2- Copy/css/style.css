@@ -1,0 +1,12 @@
+.border-rounded {
+    border-radius: 20px;
+}
+
+.card {
+    border-radius: 20px;
+}
+
+#mainImg {
+    width: 560px;
+    height: 609px;
+}

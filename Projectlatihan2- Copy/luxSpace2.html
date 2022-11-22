@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/alert.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-white justify-content-between">
+        <div class="ml-5">
+            <img src="./image/logo.png" alt="">
+
+        </div>
+        <div class="d-flex">
+            <a class="nav-link text-dark" href="">Showcase</a>
+            <a class="nav-link text-dark" href="">Catalog</a>
+            <a class="nav-link text-dark" href="">Delivery</a>
+            <a class="nav-link text-dark" href="">Rewards</a>
+            <img src="./image/cart-alt-solid-24.png" alt="icon">
+        </div>
+
+    </nav>
+
+    <nav class="navbar bg-light">
+        <div class="d-flex ml-5">
+            <a class="nav-link text-dark" href="">Home</a>
+            <a class="nav-link text-dark">/</a>
+            <a class="nav-link text-dark" href="">Office Room</a>
+            <a class="nav-link text-dark">/</a>
+            <a class="nav-link text-dark" href="./luxSpace1.html">Details</a>
+            <a class="nav-link text-dark">/</a>
+            <a class="nav-link text-dark" href=""><b>Shipping</b></a>
+        </div>
+    </nav>
+
+    <div class="row justify-content-center my-5">
+        <div id="formMain" class="border border-danger p-5 rounded">
+            <h1 class="text-center">Shipping Form</h1>
+            <form class="mt-5" id="formShipping">
+                <div class="d-flex">
+                    <div class="form-group">
+                        <label for="firstname">First Name</label>
+                        <input type="text" class="form-control" id="firstname" aria-describedby="namehelp"
+                            placeholder="Enter Firstname" />
+                    </div>
+
+                    <div class="form-group mx-4">
+                        <label for="phonenumber">Phone Number</label>
+                        <input type="number" class="form-control" id="number" placeholder=" Enter Number" />
+                    </div>
+
+                </div>
+
+                <div class="d-flex">
+                    <div class="form-group">
+                        <label for="lastname">Last Name</label>
+                        <input type="text" class="form-control" id="lastname" aria-describedby="namehelp"
+                            placeholder="Enter Lastname" />
+                    </div>
+
+                    <div class="form-group mx-4">
+                        <label for="city">City</label>
+                        <input type="text" class="form-control" id="city" placeholder="Enter City" />
+                    </div>
+                </div>
+
+                <div class="d-flex">
+                    <div class="form-group">
+                        <label for="emailaddres">Email Addres</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailhelp"
+                            placeholder="Enter Email" />
+                    </div>
+
+                    <div class="form-group mx-4">
+                        <label for="code">Portal Code</label>
+                        <input type="text" class="form-control" id="code" placeholder="Enter Portal Code" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="addres">Addres</label>
+                    <textarea type="text" class="form-control" id="addres" aria-describedby="addreshelp"
+                        placeholder="Enter Addres"></textarea>
+                </div>
+                <button type="submit" class="btn btn-rounded" style="background-color: pink
+                    ;">Submit</button>
+            </form>
+        </div>
+        <div class="d-none" id="klik">
+            <h4></h4>
+            <p></p>
+            <button type="submit" class="btn btn-rounded" style="background-color: pink
+                    ;">Back</button>
+        </div>
+    </div>
+
+    <div class="my-0 p-3 bg-light">
+        <div class="text-center my-5 ">
+            <img src="./image/logo.png" alt="">
+        </div>
+
+        <div class="d-flex flex-row justify-content-around">
+            <div class="d-flex flex-column">
+                <div><b>Overview</b></div>
+                <div>Shipping</div>
+                <div>Refund</div>
+                <div>Promotion</div>
+            </div>
+            <div>
+                <div><b>Company</b></div>
+                <div>About</div>
+                <div>Career</div>
+                <div>Contact Us</div>
+            </div>
+            <div>
+                <div><b>Explore</b></div>
+                <div>Terms & Condition</div>
+                <div>Privacy Podivcy</div>
+                <div>For Developer</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-footer text-center p-3">
+        <B>2022 Copyright by ALFI DWI OCTAVIAN</B>
+    </div>
+
+</body>
+
+</html>
